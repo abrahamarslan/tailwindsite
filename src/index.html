@@ -316,23 +316,23 @@
     <div class="py-24 bg-gray-300">
         <div class="container mx-auto px-6">
             <div class="mb-10 text-center">
-                <h2 class="mb-2 text-5xl">What we'll build</h2>
-                <p class="mb-6">These components are things you'll have to create in every project.</p>
-                <div class="grid grid-cols-4 gap-5">
+                <h2 class="mb-2 text-5xl text-gray-800">What we'll build</h2>
+                <p class="mb-6 text-xl text-gray-700">These components are things you'll have to create in every project.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
                     <div class="flex bg-white rounded shadow">
                         <div class="w-1/5 flex items-center justify-center text-3xl bg-red-500 rounded-l">😍</div>
                         <div class="p-4">Buttons</div>
                     </div>
                     <div class="flex bg-white rounded shadow">
-                        <div class="w-1/5 flex items-center justify-center text-3xl bg-red-500 rounded-l">😍</div>
+                        <div class="w-1/5 flex items-center justify-center text-3xl bg-green-500 rounded-l">😍</div>
                         <div class="p-4">Cards</div>
                     </div>
                     <div class="flex bg-white rounded shadow">
-                        <div class="w-1/5 flex items-center justify-center text-3xl bg-red-500 rounded-l">😍</div>
+                        <div class="w-1/5 flex items-center justify-center text-3xl bg-purple-500 rounded-l">😍</div>
                         <div class="p-4">Footer</div>
                     </div>
                     <div class="flex bg-white rounded shadow">
-                        <div class="w-1/5 flex items-center justify-center text-3xl bg-red-500 rounded-l">😍</div>
+                        <div class="w-1/5 flex items-center justify-center text-3xl bg-blue-500 rounded-l">😍</div>
                         <div class="p-4">Header</div>
                     </div> 
                 </div>
@@ -340,6 +340,49 @@
         </div>
     </div>
 <!--    /what we'll build-->
+
+<!--    pricing section-->
+    <div class="relative bg-blue-600 py-32 text-blue-200">
+<!--        gray box for top section-->
+        <div class="absolute top-0 inset-x-0 h-48 bg-gray-300">
+
+        </div>
+        <div class="container mx-auto px-6 flex items-center space-x-8 text-lg">
+<!--            left box-->
+            <div class="w-1/3 pt-12 text-right space-y-4 text-xl">
+                <p><strong class="font-bold font-white">75 videos</strong> at a smooth pace</p>
+                <p><strong class="font-bold font-white">9.25 hours</strong> of learning + building</p>
+                <p><strong class="font-bold font-white">Source code</strong> and CodePens</p>
+            </div>
+<!--            pricing box-->
+            <div class="relative w-1/3 pt-12 text-center p-8 rounded shadow-2xl border-8 border-purple-700 space-y-8 bg-gray-100 transform hover:scale-105 transition duration-500">
+
+<!--                rays-->
+                <div class="absolute top-0 inset-x-0 transform -translate-y-full flex items-end justify-center space-x-8">
+                    <div class="w-2 h-16 mb-8 transform origin-bottom -rotate-45 rounded bg-red-500"></div>
+                    <div class="w-2 h-24 mb-8 rounded bg-yellow-500"></div>
+                    <div class="w-2 h-16 mb-8 transform origin-bottom rotate-45 rounded bg-green-500"></div>
+                </div>
+<!--                /rays-->
+                <h4 class="text-gray-700 text-sm">Start Tailwind<span class="italic">-ing</span>!</h4>
+                <div class="flex flex-grow items-center justify-center text-6xl text-purple-800">
+                    <span class="text-gray-700">$</span>
+                    <div class="">
+                        <span class="text-red-600 line-through mr-1">47</span>
+                        <span class="text-gray-700">14.10</span>
+                    </div>
+                </div>
+                <a href="#" class="block p-3 text-center text-2xl bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 text-yellow-800 hover:text-yellow-900 rounded shadow hover:shadow-xl transition duration-500">Buy the course</a>
+            </div>
+<!--            right box-->
+            <div class="w-1/3 pt-12 text-left space-y-4 text-xl">
+                <p>Use the code in <strong class="font-bold text-white">your projects</strong></p>
+                <p>Access to <strong class="font-bold text-white">Discord for support</strong></p>
+                <p><strong class="font-bold text-white">Lifetime refund</strong> guarantee</p>
+            </div>
+        </div>
+    </div>
+<!--    /pricing section-->
     <script src="index.js"></script>
 </body>
 </html>
