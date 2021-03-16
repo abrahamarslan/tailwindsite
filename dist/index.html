@@ -22,14 +22,14 @@
         </div>
     <!--    header and navigation-->
     <div class="relative text-gray-600">
-        <div class="container mx-auto flex justify-between px-6 lg:px-6 py-6">
+        <div class="container mx-auto flex justify-between px-6 lg:px-10 py-6">
             <div class="flex items-center space-x-4">
                 <!--        left header-->
                 <a href="#" class="text-purple-900 font-bold text-2xl">Beginner Tailwind</a>
-                <a href="#" class="hidden lg:inline-block hover:text-gray-800">About</a>
-                <a href="#" class="hidden lg:inline-block hover:text-gray-800">What You'll Learn</a>
-                <a href="#" class="hidden lg:inline-block hover:text-gray-800">Pricing</a>
-                <a href="#" class="hidden lg:inline-block hover:text-gray-800">FAQs</a>
+                <a href="#about" class="hidden lg:inline-block hover:text-gray-800">About</a>
+                <a href="#learn" class="hidden lg:inline-block hover:text-gray-800">What You'll Learn</a>
+                <a href="#pricing" class="hidden lg:inline-block hover:text-gray-800">Pricing</a>
+                <a href="#faq" class="hidden lg:inline-block hover:text-gray-800">FAQs</a>
             </div>
             <div class="space-x-4 flex items-center">
                 <!--        right header-->
@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <div class="relative bg-purple-600 pt-12 pb-20">
+    <div class="relative bg-purple-600 pt-12 pb-20" id="about">
 <!--        gray section to help section transition-->
         <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-300">
 
@@ -138,7 +138,7 @@
 <!--    end about me section-->
 
 <!--    what you'll learn section-->
-    <div class="py-24 bg-gray-200 px-6 text-gray-700">
+    <div class="py-24 bg-gray-200 px-6 text-gray-700" id="learn">
         <div class="container mx-auto px-6 lg:px-0">
             <div class="relative">
                 <h2 class="mb-32 text-4xl lg:text-6xl text-center font-bold text-purple-900">What you'll learn in this course</h2>
@@ -337,7 +337,7 @@
 <!--    /what we'll build-->
 
 <!--    pricing section-->
-    <div class="relative bg-blue-600 py-32 text-blue-200">
+    <div class="relative bg-blue-600 py-32 text-blue-200" id="pricing">
 <!--        gray box for top section-->
         <div class="absolute top-0 inset-x-0 h-48 bg-gray-300">
 
@@ -379,8 +379,43 @@
     </div>
 <!--    /pricing section-->
 
+
+<!--    modules/videos section-->
+    <div class="py-32 bg-gradient-to-b from-gray-700 to-gray-800 text-gray-200">
+        <div class="container mx-auto px-6">
+            <div class="mb-10 text-center space-y-4">
+                <h2 class="text-4xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-br from-white to-purple-200 font-bold">The Modules/Videos</h2>
+                <p class="text-2xl text-gray-200">9+ hours of Tailwind learning in 18 modules and 73 videos</p>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <div class="flex justify-between items-center p-6 bg-gray-800 rounded-t-lg">
+                    <h4 class="text-2xl">Getting Started</h4>
+                    <div class="flex space-x-8 text-center">
+                        <div><strong class="text-2xl">6</strong>  <span class="block">videos</span></div>
+                        <div><strong class="text-2xl">33</strong> <span class="block">minutes</span></div>
+                    </div>
+                </div>
+                <div class="flex justify-between bg-opacity-75 items-center p-6 bg-gray-800">
+                    <h4 class="text-2xl">Main Concepts</h4>
+                    <div class="flex space-x-8 text-center">
+                        <div><strong class="text-2xl">11</strong>  <span class="block">videos</span></div>
+                        <div><strong class="text-2xl">42</strong> <span class="block">minutes</span></div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center p-6 bg-gray-800 rounded-b-lg">
+                    <h4 class="text-2xl">Layout Design</h4>
+                    <div class="flex space-x-8 text-center">
+                        <div><strong class="text-2xl">4</strong>  <span class="block">videos</span></div>
+                        <div><strong class="text-2xl">27</strong> <span class="block">minutes</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    /modules/videos section-->
+
 <!--    faq section-->
-    <div class="bg-gray-800 py-32 text-gray-400">
+    <div class="bg-gray-800 py-32 text-gray-400" id="faq">
         <div class="container mx-auto px-6">
             <h2 class="mb-12 text-3xl text-center font-bold">Frequently Asked Questions</h2>
 <!--            grid of questions-->
